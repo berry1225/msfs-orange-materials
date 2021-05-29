@@ -94,6 +94,11 @@
 
 滑走路上にマーキングや線を配置する時は、Apronを非表示にしてダイレクトに航空写真を参照すると色々捗ります。
 
+Apronの色指定を変えることでマテリアル自体の色を変更することも可能らしいです。
+しかし、わたしの環境ではSDK上でも他人の作成したファイルも何故か全く変わらなかったので、個人的にはその方法は非推奨です。
+
+Opacity(不透明度)はわたしの環境でもちゃんと反映されました。0で完全透明～255で完全不透明です。色を薄くしたいところは数字を落としましょう。
+
 ## 線の色の変更
 
 * Material Editor → 線用のマテリアルを選択
@@ -180,4 +185,10 @@ https://www.youtube.com/watch?v=yI5iZCrkjVc
 SDK Tutorial #8 - Custom painted lines
 https://www.youtube.com/watch?v=bz5VfVs17xo
 
+
+---
+
+チョコレートが足りていたら追記します。
+
+`Buy me a chocolate`
 
