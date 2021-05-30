@@ -15,7 +15,7 @@
 ただし画像ファイルの二次配布については、このファイル作者の許可のないものは原則的に禁止です。
 
 とは一応書きましたが、このへんの素材は誰が作っても同じ形になるので、正直どう扱われてもとやかく言う気はありません。誰だって車輪の再発明はしたくないですよね。
-お作法的にクレジット表記とリンクだけ書いておいてもらえれば。
+お作法的にクレジット表記とリンクだけ書いておいてもらえればと思います。
 
 
 ## 諸注意
@@ -87,10 +87,10 @@
 
 ## マテリアル配置 
 
-* 1. Scenery Editor → Objects → ApronをSquareで配置(Add)
-* 2. Material Editor → 配置したいマテリアルを選択
-* 3. Scenery Editor → さっき配置したオブジェクトを選択
-* 4. Properties → Surfaceをクリックすると、選択したマテリアルが登録されるはず
+1. Scenery Editor → Objects → ApronをSquareで配置(Add)
+2. Material Editor → 配置したいマテリアルを選択
+3. Scenery Editor → さっき配置したオブジェクトを選択
+4. Properties → Surfaceをクリックすると、選択したマテリアルが登録されるはず
 
 滑走路上にマーキングや線を配置する時は、Apronを非表示にしてダイレクトに航空写真を参照すると色々捗ります。
 
@@ -101,9 +101,9 @@ Opacity(不透明度)はわたしの環境でもちゃんと反映されまし�
 
 ## 線の色の変更
 
-* Material Editor → 線用のマテリアルを選択
-* Scenery Editor → 色変更したい"PaintedLine"を選択
-* Properties → Optional Material 「...」
+1. Material Editor → 線用のマテリアルを選択
+2. Scenery Editor → 色変更したい"PaintedLine"を選択
+3. Properties → Optional Material 「...」
 
 種類はそれぞれ以下です。
 * 中心線などの一本線：DEFAULT (中心線の実装方法は後述)
@@ -126,10 +126,10 @@ Opacity(不透明度)はわたしの環境でもちゃんと反映されまし�
 誘導路の中心線はうまく線用マテリアルに置換できませんでした。なので、中心線を描画する方法は以下のようにする必要があります。
 途中までは「線の色の変更」と同じです。
 
-* Scenery Editor → 中心線を引きたい部分に"PaintedLine"を配置してマテリアル指定
-* 線が二重になっていることを確認して、被っている"TaxiPath"を選択
-* Properties → Center lineをオフにしての中心線を無効にする
-* 線の重複が無くなったことを確認したら、
+1. Scenery Editor → 中心線を引きたい部分に"PaintedLine"を配置してマテリアル指定
+2. 線が二重になっていることを確認して、被っている"TaxiPath"を選択
+3. Properties → Center lineをオフにしての中心線を無効にする
+4. 線の重複が無くなったことを確認したら、PaintedLineの位置を微調整して完成
 
 "Center line lighted"との兼ね合いで、線とパスはほぼ同じ場所に配置しておくことをオススメします。
 オブジェクトを選択するときにややこしいですが。
