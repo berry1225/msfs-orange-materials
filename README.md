@@ -192,5 +192,5 @@ https://www.youtube.com/watch?v=bz5VfVs17xo
 
 チョコレートが足りていたら追記します。
 
-`Buy me a chocolate`
+`Buy me chocolate`
 
