@@ -141,7 +141,10 @@ Opacity(不透明度)は上記の設定をしている人でもちゃんと反�
 線用のマテリアルは、以下の公式ファイルが参考になります。
 (DDS形式のファイルは、PhotoshopなりGIMPなりで頑張れば読み込めます)
 ```
-(Cとか:\Users\＜ユーザー＞\AppData\Local\Packages\Microsoft.FlightSimulator＜数字とか＞\LocalCache\Packages\Official\OneStore\fs-base-material-lib\MaterialLibs\Base_MaterialLib\Textures\ASO_TAXIWAY_MARKS.TIF.DDS)
+Cとか:\Users\＜ユーザー＞\AppData\Local\Packages\Microsoft.FlightSimulator＜数字とか＞\LocalCache\Packages\Official\OneStore\fs-base-material-lib\MaterialLibs\Base_MaterialLib\Textures\ASO_TAXIWAY_MARKS.TIF.DDS
+
+※↑はストアアプリ版、Steam版はたぶん↓とか探せばありそう
+Cとか:\Users\＜ユーザー＞\AppData\Roaming\Microsoft Flight Simulator\Packages\以下省略
 ```
 
 線用のファイルは種類ごとにそれぞれエリアが決まっているようです。
