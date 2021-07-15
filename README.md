@@ -7,6 +7,9 @@
 
 線の色なども一緒に変更した方が見栄えが良くなるので、使用したファイルを一式置いておきます。
 
+v1.0の「orange_」で始まるファイルは赤みが強くて雨天時などの見栄えがよくないので、
+赤みの弱い「marigold_」で始まるファイルをv2.0で追加しました。
+
 
 ## 利用条件
 
@@ -24,23 +27,35 @@
 たぶん描画上の仕様だと思われます。近くから見ると(多くのマテリアルは)ちゃんと表示されますし、気にしすぎはよくありません。
 
 
+## 更新履歴
+
+v2.0 
+* 赤みの弱い「marigold*」ファイルをメインにしました。
+* 卵型の「*_o_oval.png」ファイルを追加しました。
+* 線用ファイルの透過版を追加しました。
+* 線用ファイルの位置を微修正しました。
+
+
 ## 各ファイル説明
 
-| ファイル名              | 目的         |
-|------------------------|--------------|
-| orange.png             | 自由変形用   |
-| orange_h.png           | ヘリパッド用 |
-| orange_line.png        | 線用         |
-| orange_num_*.png       | 滑走路端用   |
-| orange_o.png           | 吹き流し用   |
-| orange_o_*.png         | 汎用(丸)     |
-| orange_small_*.png     | エプロン用   |
-| orange_tofu_[1-3].png  | 滑走路用     |
-| orange_tofu_e_*.png    | 滑走路端用   |
-| orange_tofu_w.png      | 着陸帯用     |
-| orange_v.png           | 矢印の先端用 |
-| orange_x.png           | 使用停止中用 |
-| red_tofu_*.png         | HOLD用素材   |
+| ファイル名                | 目的         |
+|--------------------------|--------------|
+| marigold.png             | 自由変形用   |
+| marigold_h.png           | ヘリパッド用 |
+| marigold_line.png        | 線用         |
+| marigold_line_*.png      | 線用(透過)   |
+| marigold_num_*.png       | 滑走路端用   |
+| marigold_o.png           | 吹き流し用   |
+| marigold_o_*.png         | 汎用(丸)     |
+| marigold_small_*.png     | エプロン用   |
+| marigold_tofu_[1-3].png  | 滑走路用     |
+| marigold_tofu_e_*.png    | 滑走路端用   |
+| marigold_tofu_w.png      | 着陸帯用     |
+| marigold_v.png           | 矢印の先端用 |
+| marigold_x.png           | 使用停止中用 |
+| red_tofu_*.png           | HOLD用素材   |
+
+※「orange*」のファイルも「marigold*」と用途は共通です。
 
 色を変えたい場合は、PtohoshopなりGIMPなりで頑張ってください。
 個人的にはCLIP STUDIO PAINTで「線の色を描画色に変更」が一番ラクです。保存して閉じるところまでオートアクションにすると更にラク。
